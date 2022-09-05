@@ -8,7 +8,7 @@ output "id" {
 
 data "azurerm_virtual_machine" "example" {
   name                = "centralindiavm"
-  resource_group_name = data.azurerm_resource_group.example.id
+  resource_group_name = "arvind-rg"
 }
 
 output "virtual_machine_id" {
